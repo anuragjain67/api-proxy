@@ -1,0 +1,28 @@
+# Ignore generated directories
+/bin/
+/config/
+/docs
+/lib
+/lib/buildout/**
+/out/
+/eggs/
+/develop-eggs/
+/parts/
+src/static/libs/
+
+# Ignore generated files
+*.pyc
+*.pyo
+*.orig
+src/*.egg-info
+*~
+.settings/
+.installed.cfg
+
+# Ignore other specific files
+.coverage
+.project
+.pydevproject
+.pydevproject.bak
+.jshintrc
+/logs
